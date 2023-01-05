@@ -1,10 +1,12 @@
 import './App.css';
+import Container from './Container/Container';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Heloo</h1>
+    <div style={{backgroundColor:"dimgray"}}>
+      <Container/>
     </div>
+    
   );
 }
 
